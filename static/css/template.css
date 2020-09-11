@@ -1,9 +1,21 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
   }
-  
-  .logo {
+
+h1 {
+    color: black;
+  } 
+
+td, tr {
+    color: white;
+  }
+
+.logo {
     background-color: #0D122B;
     padding: 10px;
     color: white;
   }
+
+  

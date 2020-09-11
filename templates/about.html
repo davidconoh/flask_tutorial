@@ -5,17 +5,25 @@
         <title>About Flask</title>
     </head>
     <body>
+        
         {% extends "template.html" %}
         {% block content %}
+
         <div class="container">
             <h1>About Flask</h1>
-            <img src="{{ url_for('static',    filename='img/flask_logo.png') }}" alt="Flask logo" width="70%" >
-            <p>Flask is a lightweight web application framework written in Python.</p>
-            <p>It is designed to make getting started quick and easy, with the ability to scale
-              up to complex applications.</p>
-            <p> Applications that use the Flask framework include Pinterest,
-              LinkedIn, and the community web page for Flask itself.</p>
-        </div>
+            <div class="row">
+                    <figure>
+                        <img src="{{ url_for('static',    filename='img/flask_logo.png') }}" alt="Flask logo" width="70%">
+                        <figcaption>
+                            <p>Flask is a lightweight web application framework written in Python.</p>
+                            <p>It is designed to make getting started quick and easy, with the ability to scale 
+                                up to complex applications.</p>
+                            <p> Applications that use the Flask framework include Pinterest, 
+                                LinkedIn, and the community web page for Flask itself.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         {% endblock %}
     </body>
 </html>

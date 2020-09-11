@@ -2,19 +2,30 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Flask Parent Template</title>
+        <title>Flask Tutorial Demo</title>
         
-        <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        <link 
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='css/template.css') }}"
+        />
 
     </head>
     <body>
         <header>
             <div class="container">
-                <h1 class="logo">First Web App</h1>
+                <h1 class="logo">Flask Tutorial Demo</h1>
                 <strong><nav>
                     <ul class="menu">
                         <li><a href="{{ url_for('home') }}">Home</a></li>
-                        <li><a href="{{ url_for('about') }}">About</a></li>
+                        <li><a href="{{ url_for('about') }}">About Flask</a></li>
+                        <li><a href="{{ url_for('analysis') }}">Covid-19 Spread Analysis</a></li>
                     </ul>
                 </nav></strong>
             </div>

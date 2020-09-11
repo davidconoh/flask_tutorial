@@ -2,17 +2,18 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Flask Tutorial</title>
+        <title>Flask Tutorial Demo</title>
     </head>
     <body>
         {% extends "template.html" %}
         {% block content %}
 
         <div class="container">
-            <h1>My First Try Using Flask </h1>
-            <p>Yay!!!</p>
+            <h1>My First Try Using Flask</h1>
+            <h5>Ta da!!!</h5>
             <img src="{{ url_for('static',    filename='img/cat.gif') }}" alt="cats playing" width="50%" >
         </div>
+        
         {% endblock %}
     </body>
 </html>
