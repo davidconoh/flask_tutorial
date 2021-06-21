@@ -9,8 +9,8 @@ This application supports the [Getting Started with Python on Heroku](https://de
 Make sure you have Python 3.8 [installed locally](http://install.python-guide.org). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 ```sh
-$ git clone https://github.com/davidconoh/flask_tutorial.git
-$ cd flask_tutorial
+$ git clone https://github.com/davidconoh/flask-tutorial-demo.git
+$ cd flask-tutorial-demo
 ```
 
 Setup your Python environment and install the required dependencies:
